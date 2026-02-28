@@ -4,9 +4,13 @@
 # But keep gitignore itself
 !.gitignore
 
-# Keep homepage html files
-!index.html
-!blog.html
-!timeline.html
-!blog_detail_privacy.html
-!blog_detail_ui.html
+# Keep root index for GitHub Pages redirect
+!/index.html
+
+# Keep homepage html files under self_page/
+!/self_page/
+!/self_page/index.html
+!/self_page/blog.html
+!/self_page/timeline.html
+!/self_page/blog_detail_privacy.html
+!/self_page/blog_detail_ui.html
